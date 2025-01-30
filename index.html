@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Submission</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="form-container">
+        <h2>Employee Details Form</h2>
+        <form id="employeeForm">
+            <!-- Basic Information Section -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="pan">PAN:</label>
+            <input type="text" id="pan" name="pan" required><br>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required><br>
+
+            <label for="basicSalary">Basic Salary:</label>
+            <input type="number" id="basicSalary" name="basicSalary" required><br>
+
+            <label for="hra">HRA:</label>
+            <input type="number" id="hra" name="hra"><br>
+
+            <label for="da">DA:</label>
+            <input type="number" id="da" name="da"><br>
+
+            <label for="allowances">Allowances:</label>
+            <input type="number" id="allowances" name="allowances"><br>
+
+            <label for="epf">EPF:</label>
+            <input type="number" id="epf" name="epf"><br>
+
+            <label for="pt">PT:</label>
+            <input type="number" id="pt" name="pt"><br>
+
+            <label for="rentPaid">Rent Paid (As a Tenant):</label>
+            <input type="number" id="rentPaid" name="rentPaid"><br>
+
+            <label for="lifeInsurance">Life Insurance:</label>
+            <input type="number" id="lifeInsurance" name="lifeInsurance"><br>
+
+            <!-- Income Details Section -->
+            <label for="interestIncome">Interest Income:</label>
+            <input type="number" id="interestIncome" name="interestIncome"><br>
+
+            <label for="dividendIncome">Dividend Income:</label>
+            <input type="number" id="dividendIncome" name="dividendIncome"><br>
+
+            <!-- Deduction Section -->
+            <label for="section80C">Section 80C:</label>
+            <input type="number" id="section80C" name="section80C"><br>
+
+            <label for="section80D">Section 80D:</label>
+            <input type="number" id="section80D" name="section80D"><br>
+
+            <!-- Add other fields here similarly -->
+
+            <button type="submit" id="submitBtn">Submit</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
