@@ -17,7 +17,7 @@ document.getElementById('employeeForm').addEventListener('submit', function (e) 
 
 function sendDataToGoogleSheets(data) {
     // This function sends the data to Google Sheets
-    const scriptURL = 'YOUR_GOOGLE_SHEET_URL'; // Google Sheets URL or Web App URL
+    const scriptURL = 'AKfycbzo4vtlsaZpJpzX-_Jdjm8thGyB0vFcTgBJBxiBBjpr'; // Google Sheets URL or Web App URL
     
     fetch(scriptURL, {
         method: 'POST',
